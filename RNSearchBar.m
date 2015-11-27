@@ -29,7 +29,7 @@
                                        text:searchBar.text
                                         key:nil
                                  eventCount:_nativeEventCount];
-    
+
 }
 
 
@@ -41,7 +41,7 @@
   [_eventDispatcher sendTextEventWithType:RCTTextEventTypeFocus
                                  reactTag:self.reactTag
                                      text:searchBar.text
-                                    key:nil
+                                      key:nil
                             eventCount:_nativeEventCount];
 }
 
@@ -52,7 +52,7 @@
   [_eventDispatcher sendTextEventWithType:RCTTextEventTypeChange
                                  reactTag:self.reactTag
                                      text:searchText
-                                    key:nil
+                                      key:nil
                                eventCount:_nativeEventCount];
 }
 

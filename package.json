@@ -9,7 +9,7 @@
     "ios"
   ],
   "dependencies": {
-    "react-native": "^0"
+    "react-native": "^0 || 0.16.0-rc"
   },
   "repository": {
     "type": "git",
